@@ -14,7 +14,7 @@ spec:
       spec:
        containers:
         - name: mrdevops
-          image: donvarshneydon/k8s
+          image: donvarshneydon/k8s:latest
           imagePullPolicy: Always
           ports:
           - containerPort: 80
